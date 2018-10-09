@@ -1,0 +1,31 @@
+{
+	"name": "Corrently-Developer",
+	"version": "1.0.0",
+	"description": "Development Ressources for Corrently",
+	"license": "ISC",
+	"author": "corrently corp",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/energychain/corrently.github.io.git"
+	},
+	"scripts": {
+		"test": "echo \\\"Error: no test specified\\\" && exit 1"
+	},
+	"dependencies": {
+		"correntlywallet": "^1.0.3"
+	},
+	"devDependencies": {
+		"browser-sync": "^2.24.5",
+		"del": "^3.0.0",
+		"gulp": "^3.9.1",
+		"gulp-autoprefixer": "^4.1.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-cssmin": "^0.2.0",
+		"gulp-html-replace": "^1.6.2",
+		"gulp-rename": "^1.2.2",
+		"gulp-sass": "^3.2.1",
+		"gulp-sourcemaps": "^2.6.4",
+		"gulp-uglify": "^3.0.0"
+	}
+}
